@@ -6,7 +6,7 @@ This project focuses on classifying the movies based on their genres using diffe
 The dataset used is the [Genre Classification Dataset IMDb](https://www.kaggle.com/datasets/hijest/genre-classification-dataset-imdb) obtained from Kaggle. This contains both training and testing dataset consisting of movie title and plot summary.
 
 ### Data Preprocessing
-Comprehensive data preprocessing steps are used, such as converting to lowercase, removing special characters and punctuation and removing extra whitespaces. The movies are split into training and testing datasets in the ratio of 3:1.
+Comprehensive data preprocessing steps are used, such as converting to lowercase, removing special characters and punctuation and removing extra whitespaces. The redundant columns are removed and the movie genres are encoded to obtain numeric data. The movies are split into training and testing datasets in the ratio of 3:1.
 
 ### Feature Extraction
 Text data is transformed into feature vectors using the Term Frequency-Inverse Document Frequency (TF-IDF) vectorizer, enabling numerical input for machine learning models.
@@ -28,5 +28,6 @@ Accuracy scores and Classification Report are displayed in the notebook. The Log
 
 ### How to Use
 1. Open Genre_Classification.ipynb file in Jupyter Notebook.
+1. Download the dataset from kaggle and move it to same folder as notebook file.
 1. Execute cells to load data, preprocess it, train models, and make predictions.
 
