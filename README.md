@@ -25,7 +25,7 @@ Models are trained on the training set, and their accuracies are evaluated on bo
 Trained models are tested on sample movie plot summaries to demonstrate their predictive capabilities. Input plot summaries are converted into feature vectors using the TF-IDF vectorizer.
 
 ### Results
-Accuracy scores and Classification Report are displayed in the notebook. The Support Vector Classifier (SVC) achieved the highest accuracy among all the tested models.
+Accuracy scores and Classification Report are displayed in the notebook. The Logistic Regression Classifier achieved the highest accuracy among all the tested models.
 
 ### How to Use
 1. Open Genre_Classification.ipynb file in Jupyter Notebook.
