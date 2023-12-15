@@ -1,4 +1,4 @@
-# MOVIE GENRE CLASSIFICATION
+# Movie Genre Classification
 ### Overview
 This project focuses on classifying the movies based on their genres using different machine learning classification models, including Logistic Regression, Naive Bayes, and Support Vector Machines (SVM). Each model is trained on the same dataset and their accuracy is compared.
 
