@@ -33,7 +33,7 @@ Accuracy scores and Classification Report are displayed in the notebook. The Log
 1. Download the dataset from kaggle and move it to same folder as notebook file.
 1. Execute cells to load data, preprocess it, train models, and make predictions.
 
-
+----
 
 ## 2. Credit Card Transaction Fraud Detection
 
